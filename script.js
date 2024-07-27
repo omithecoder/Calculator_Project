@@ -4,4 +4,4 @@ let equation = "2+4*5/4";
 
 // operator preferences function
 
-//
+// function to solve postfix evaluations
