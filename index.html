@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+
+		<!-- google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>My Calculator</title>
+	</head>
+	<body>
+		<div id="mainContainer">
+			<div id="nameImage">
+				<div
+					style="
+						display: flex;
+						font-size: 25px;
+						align-items: center;
+						justify-content: center;
+						gap: 2px;
+					"
+				>
+					<h1>My Calculator App</h1>
+					<img
+						src="logoImage.gif"
+						alt="CalculatorLogo"
+						width="100px"
+						height="100px"
+					/>
+				</div>
+				<img
+					src="./calculatorImg.gif"
+					alt="CalculatorImg"
+					width="780px"
+					height="580px"
+				/>
+			</div>
+			<div id="mainCalulator">
+				<div id="calBody">
+					<input type="text" name="equation" id="equation" />
+					<div id="buttons">
+						<button id="calbtns-lG" class="btnC">C</button>
+						<button id="calbtns-lG" class="btnback"><</button>
+						<button id="calbtns-lG" class="btn%">%</button>
+						<button id="calbtns-o" class="btndiv">/</button>
+						<button id="calbtns-G" class="btn7">7</button>
+						<button id="calbtns-G" class="btn8">8</button>
+						<button id="calbtns-G" class="btn9">9</button>
+						<button id="calbtns-o" class="btnmul">x</button>
+						<button id="calbtns-G" class="btn4">4</button>
+						<button id="calbtns-G" class="btn5">5</button>
+						<button id="calbtns-G" class="btn6">6</button>
+						<button id="calbtns-o" class="btnminus">-</button>
+						<button id="calbtns-G" class="btn1">1</button>
+						<button id="calbtns-G" class="btn2">2</button>
+						<button id="calbtns-G" class="btn3">3</button>
+						<button id="calbtns-o" class="btnplus">+</button>
+					</div>
+					<div id="lastButtons">
+						<button id="longbtn" class="btn0">0</button>
+						<button id="calbtns-G" class="btn,">,</button>
+						<button id="calbtns-o" class="btnequal">=</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>

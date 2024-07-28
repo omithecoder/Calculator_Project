@@ -1,0 +1,115 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+	/* overflow-y: hidden;
+	overflow-x: hidden; */
+	font-family: "Merriweather", serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+#mainContainer {
+	background-color: #fafafa;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+#nameImage {
+	height: 100%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+}
+
+#mainCalulator {
+	height: 100%;
+	width: 40%;
+}
+
+#calBody {
+	width: 65%;
+	height: 90%;
+	background-color: #000000;
+	border-radius: 2rem;
+	margin: 2rem;
+}
+
+#equation {
+	/* border: none; */
+	border: 1px solid black;
+	background-color: #000000;
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 5rem;
+	padding-bottom: 0;
+	height: 30%;
+	width: 98.6%;
+}
+
+#buttons {
+	display: grid;
+	padding: 1rem;
+	padding-top: 3rem;
+	grid-template-rows: repeat(4, 75px);
+	grid-template-columns: repeat(4, 75px);
+	gap: 1rem;
+}
+#lastButtons {
+	display: grid;
+	padding: 1rem;
+	padding-top: 0%;
+	grid-template-rows: repeat(1, 75px);
+	grid-template-columns: 170px 75px 75px;
+	gap: 1rem;
+}
+
+#longbtn {
+	background-color: #333333;
+	height: 75px;
+	width: 170px;
+	border-radius: 2rem;
+	border: none;
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+#calbtns-lG {
+	background-color: #a5a5a5;
+	height: 75px;
+	width: 75px;
+	border-radius: 100%;
+	border: none;
+	font-size: 30px;
+	font-weight: 400;
+	color: #000000;
+}
+#calbtns-G {
+	background-color: #333333;
+	height: 75px;
+	width: 75px;
+	border-radius: 100%;
+	border: none;
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+}
+#calbtns-o {
+	background-color: #ff9f0a;
+	height: 75px;
+	width: 75px;
+	border-radius: 100%;
+	border: none;
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+}
