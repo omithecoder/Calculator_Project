@@ -1,3 +1,4 @@
+// Enter your equation Here
 let equation = "12+3*4+10/4";
 
 // operator preferences function
